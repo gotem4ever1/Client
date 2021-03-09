@@ -19,11 +19,16 @@
     "web-vitals": "^1.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "node server",
+    "heroku-postbuild": "cd react-ui/ && npm install && npm run build"
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+    "postinstall": "bower install && gulp build"
   },
+  "cacheDirectories": [
+    "node_modules",
+    "react-ui/node_modules"
+  ],
   "eslintConfig": {
     "extends": [
       "react-app",
