@@ -1,0 +1,81 @@
+.shelfDiv{
+  min-width: 50%
+}
+.shelfContainer{
+  /* padding-left: 4px;
+  padding-right: 4px; */
+  /* border: 1px solid blue; */
+  max-width: 100%;
+
+
+
+  /* background-image: linear-gradient(
+    #241909,
+    #2c1e0b 220px,
+    #b87e2c 220px,
+    #b87e2c 222px,
+    #a87328 222px,
+    #a87328 228px,
+    #986824 228px,
+    #986824 230px
+  ); */
+  /* background-size: 10px 230px; */
+}
+.Book{
+  /* height: 200px;
+  width: 40px; */
+  min-width: 15%;
+  max-width: 20%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  min-height: 20%;
+  border: 1px solid green;
+  text-align: center;
+
+  /* border-bottom: 7px solid #a87328; */
+
+}
+.bookShelf{
+  border: 12px #a87328 solid;
+  border-radius: 25px;
+  /* width: 100%; */
+  height: 520px;
+  background-image: linear-gradient(
+    #241909,
+    #2c1e0b 98px,
+    /* #b87e2c 220px, */
+    /* #b87e2c 222px, */
+    /* #a87328 222px, */
+    /* #a87328 228px, */
+    /* #986824 228px, */
+    #986824 98px
+  );
+  background-size: 10px 106px;
+  /* box-shadow: 0px 800px 0px 200px rgb(29, 167, 221); */
+
+}
+li{
+  border-bottom: 3px solid red;
+}
+ul{
+  /* display: flex; */
+  list-style-type: none;
+  padding-inline-start: 0;
+  /* writing-mode: vertical-lr; */
+
+  /* transform: rotate(180deg); */
+  /*margin-top: -200px;
+  margin-left: -149px;
+  justify-content: flex-end; */
+  /* text-orientation: upright; */
+  /* box-sizing: border-box; */
+  display: flex;
+  flex-wrap: wrap;
+  /* border-bottom: 3px solid red; */
+  /* text-orientation: sideways; */
+
+}
+
+h1{
+  text-align: center;
+}

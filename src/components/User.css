@@ -1,0 +1,31 @@
+.container{
+  margin: auto;
+  max-width: 85%;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+.searchForm{
+  border: 1px solid red;
+  max-width: 40%;
+  margin: auto;
+  justify-content: center;
+}
+.shelfDiv{
+  /* border: 1px solid red; */
+  max-width: 50%;
+  margin: auto;
+}
+.search-button{
+  border-radius: 5px;
+}
+input{
+    border-radius: 5px;
+    width: 250px;
+    height: 30px;
+}
+input.search-button{
+  width: 100px;
+}
